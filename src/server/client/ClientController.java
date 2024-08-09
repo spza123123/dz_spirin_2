@@ -1,12 +1,14 @@
 package server.client;
 
+import server.server.ServerController;
+
 /**
  * класс содержащий логику работы клиента
  *
  * @clientView абстракция графического интерфейса
  * @server объект для связи с сервером
  */
-public class ClientController {
+public class ClientController extends ClientGUI {
     private boolean connected;
     private String name;
     private ClientView clientView;

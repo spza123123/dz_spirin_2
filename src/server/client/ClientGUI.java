@@ -185,4 +185,8 @@ public class ClientGUI extends JFrame implements ClientView{
             this.disconnectedFromServer();
         }
     }
+
+    public void answer(String text) {
+
+    }
 }

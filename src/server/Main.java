@@ -2,6 +2,7 @@ package server;
 
 import server.client.ClientController;
 import server.client.ClientGUI;
+import server.server.ServerController;
 import server.server.ServerWindow;
 
 public class Main {
